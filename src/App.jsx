@@ -28,7 +28,7 @@ function CoreConcept(props) {
     </li>
   );
 }
-function CoreConcept2({imageititle,description}) {
+function CoreConcept2({image,title,description}) {
   return (
     <li>
       <img src={image} alt={title} />
